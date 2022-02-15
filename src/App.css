@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+/* MUSIC NON STOP */
+.App-header {
+  background-color: #000000;
+  padding: 1%;
+  max-height: 950vh;
+  max-width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  border-radius: 5px;
+}
+
+Footer {
+font-size: xx-large;
+text-align: center;
+}
+
+body {
+  background-image: url("https://www.youredm.com/wp-content/uploads/2015/05/Kraftwerk-e1430771212157.jpg");
+   background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0);
+    font-family:monospace;
+    font-size: x-large;
+    padding: 1rem;
+    cursor: grab;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 3px 2px #000000;
+}
+
+h2, h3  {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2.5px 3px #E92E00;
+  border: 1px solid #E92E00;
+  background-color: rgb(0, 0, 0); 
+  opacity: .9;
+  border-radius: 5px;
+  padding:.5rem
+}
+
+h4 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-decoration: double;
+  font-weight: bold;        
+  font-variant: small-caps;
+  font-size:xx-large;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  opacity: .9;
+  border-width: .5rem;
+}
+
+p , ul{
+  text-shadow: .5px .5px #E92E00;
+  color: rgb(255, 255, 255);
+  border: 5px solid #E92E00;
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0);
+  opacity: .9;
+  padding: 1%;
+}
+/* ===================================== */
+/* ALBUM NAMES + Text for tabs */
+a {
+  color: #000000;
+  background-color: #ffffff;
+  padding:0%;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 1px;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-style: oblique;
+  font-size: xx-large;
+
+}
+/* ================================= */
+/* HOME/ THE BAND/ DISCOGRAPHY BUTTONS */
+button.btn-dark {
+  background-color: rgb(255, 255, 255);
+  border: none;
+  font-size: xx-large;  
+  opacity: .9;  
+}
+
+button.btn-dark:hover { 
+border: none;
+background-color: transparent;
+color: rgb(255, 230, 0);
+opacity: 2;
+}
+
+/* ===================================== */
+/* ALBUM NAMES AREA + BAND MEMBERS */
+ul {
+    text-shadow: 1px 1px #E92E00;
+}
+
+ul:hover {
+  color: rgb(0, 0, 0);
+  background-color: #e92E00;
+  border-color: black;
+  border-radius: 5px;
+}
+
+th , td {
+  opacity: 3;
+  max-width: 45rem;
+  align-items: center;
+  color: #e92E00;
+}
+
+tr {
+  border: transparent;
+  font-size: x-large;
+}
+
+th {
+  font-size: xx-large;
+    text-shadow: 1px 1px #ffffff;
+}
+
+.reviewText {
+  font-size:xx-large;
+  text-align: center;
+  border: 5px solid #000000;
+  background-color: #e92E00;
+
+
+}
+
+.card-header-title {
+  background-color:#e92E00;
+  border: 3px  #000000;
+  color: rgb(0, 0, 0);
+  border-bottom-style: solid;
+
+}
+
+ button.accordion-button{
+  font-size:larger;
+  color: rgb(255, 255, 255);
+  background: #E92E00;  
+}
