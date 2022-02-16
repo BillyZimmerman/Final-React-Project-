@@ -21,7 +21,7 @@ function Tour(props) {
                 </tr>
                 <tr>
                     <td>01 JUN 2022</td>
-                    <td colSpan="2">MINNEAPOLIS</td>
+                    <td>MINNEAPOLIS</td>
                 </tr>
                 <tr>
                     <td>02 JUN 2022</td>

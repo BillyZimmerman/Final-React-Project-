@@ -19,13 +19,13 @@ class ReviewForm extends React.Component {
     addComment(name, comment) {
         let previousPost = this.state.post;
 
-        let newcomment = {
+        let newComment = {
             "postId": Math.random(),
             "id": Math.random(),
             "name": name,
             "body": comment
         }
-        previousPost.push(newcomment);
+        previousPost.push(newComment);
 
         this.setState({
             post: previousPost

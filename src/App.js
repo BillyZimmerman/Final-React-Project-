@@ -5,7 +5,7 @@ import About from "./components/About";
 import Home from "./components/Home";
 import Tour from "./components/TourDates";
 import AlbumCard from "./components/AlbumCards";
-import Disography from "./components/Discography";
+import Discography from "./components/Discography";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Button from 'react-bootstrap/Button';
@@ -25,13 +25,13 @@ import {
 // CREATING THE MAIN COMPONENT 
 export default function App() {
 
-  const albums = Disography()
+  const albums = Discography()
 
   // THIS STAYS HERE 
   function Albums({ albums }) {
     const match = useRouteMatch();
     const findAlbumCardById = (id) =>
-      // looking at each post and if the id of the current post we are looking at is the same as the one that is passed in it will return the 1st element[0]
+      // looking at each album and if the id of the current album we are looking at is the same as the one that is passed in it will return the 1st element[0]
       albums.filter((AlbumCard) => AlbumCard.id == id)[0];
 
     return (
@@ -39,12 +39,12 @@ export default function App() {
         <h2>Discography</h2>
         <h4>Click each album to get more info and to add a review</h4>
         <ul>
-          {/* RETURNING A LINK FOR EACH POST MADE */}
+          {/* RETURNING A LINK FOR EACH ALBUM */}
           {albums.map((AlbumCard, index) => {
             return (
               <Alert key={index} variant="light">
                 <Link to={`${match.url}/${AlbumCard.id}`}>
-                  {/* Creating the link for the post we are looking at */}
+                  {/* Creating the link for the album we are looking at */}
                   {AlbumCard.title}
                 </Link>
               </Alert>
@@ -69,7 +69,6 @@ export default function App() {
       </div>
     );
   }
-  // =====================================================
 
   // This is our router component
   return (
@@ -93,8 +92,6 @@ export default function App() {
               <Link to="/Tour">Tour Dates</Link>
             </Button>
           </ButtonGroup>
-
-          {/* =================================================== */}
 
           <Switch>
             <Route path='/Albums'>
