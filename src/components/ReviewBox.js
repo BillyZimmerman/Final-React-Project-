@@ -1,14 +1,11 @@
 import React from "react";
 class ReviewBox extends React.Component {
 
-
     constructor(props) {
         super(props);
-
         this.state = {
             isAbusive: false,
         }
-
     }
 
     toggleAbuse(event) {
@@ -16,7 +13,6 @@ class ReviewBox extends React.Component {
         this.setState({
             isAbusive: !this.state.isAbusive
         })
-
     }
 
     // =============================================================
@@ -47,7 +43,6 @@ class ReviewBox extends React.Component {
     // =============================================================
 
     render() {
-
         let commentBody;
         if (this.state.isAbusive === false) {
             commentBody = this.props.comment;
@@ -117,7 +112,6 @@ class ReviewBox extends React.Component {
                         <i class="fa fa-thumbs-o-down fa-2x" aria-hidden="true"></i></a> */}
                     </footer>
                 </div>
-
             </div>
         );
     };

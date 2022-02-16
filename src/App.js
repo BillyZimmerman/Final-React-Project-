@@ -63,7 +63,7 @@ export default function App() {
           />
           {/* ADDING A DEFAULT for when you click on post what you will see at first if nothing is selected */}
           <Route path={match.path}>
-            <h3> Select a album</h3>
+            <h3> Select an album to learn about and place a review</h3>
           </Route>
         </Switch>
       </div>
@@ -72,7 +72,7 @@ export default function App() {
 
   // This is our router component
   return (
-    <Container fluid="md">
+    <Container fluid="sm">
       <Router>
         <div className="Nav">
           <Header text="Music Non Stop" />

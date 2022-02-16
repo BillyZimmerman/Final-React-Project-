@@ -110,16 +110,16 @@ class ReviewForm extends React.Component {
                 <div> <p class="reviewText"> Review this album below! </p></div>
 
                 <div class="field">
-                    <label class="label">Album Name</label>
+                    <label class="label"><b>Album Name</b></label>
                     <div class="control">
-                        <input class="input" type="text" placeholder="Album" ref={(c) => this.name = c} />
+                        <input class="input" type="text" placeholder="Album Name" ref={(c) => this.name = c} />
                     </div></div>
 
                 <div class="field">
-                    <label class="label">Review</label>
+                    <label class="label"><b>Review</b></label>
                     <div class="control">
 
-                        <textarea class="textarea" placeholder="Review" ref={(c) => this.comment = c}
+                        <textarea class="textarea" placeholder="Album Review" ref={(c) => this.comment = c}
                             onKeyUp={this.characterCount.bind(this)}></textarea>
 
                         <p> {this.state.characters} characters (Max 200)  </p>
