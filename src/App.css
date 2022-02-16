@@ -151,7 +151,7 @@ th {
   font-size: 1.5rem;
 }
 .card-header-title {
-  /* background-color:#e92E00; */
+  background-color:#e92E00;
   border: 3px  #000000;
   color: rgb(255, 255, 255);
   border: 5px solid #e92E00;
@@ -160,11 +160,19 @@ th {
 }
 
  button.accordion-button{
-  font-size:larger;
+  font-size:1.5rem;
   color: rgb(255, 255, 255);
   background: #E92E00;  
-}
+} 
 
-.container-md {
-  position:relative;
+/* .Accordion-Header {
+  color: pink;
+  font-size: 44rem;
+} */
+
+/* .accordion {
+  font-size: 22rem;
 }
+/* .container-md {
+  position:relative;
+} */

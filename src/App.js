@@ -12,7 +12,6 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Alert from 'react-bootstrap/Alert';
 import Container from "react-bootstrap/Container";
-
 import {
   BrowserRouter as Router,
   Switch,
@@ -71,9 +70,9 @@ export default function App() {
   }
 
   // This is our router component
-  return (
+  return ( 
     <Container fluid="sm">
-      <Router>
+        <Router>
         <div className="Nav">
           <Header text="Music Non Stop" />
         </div>
